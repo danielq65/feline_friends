@@ -1,0 +1,22 @@
+/*
+    File: style.css
+    GUI Assignment: Create Your First Web Page
+    Daniel Quinonez, UMass Lowell Computer Science, daniel_quinonezrosario@student.uml.edu
+    Copyright (c) 2022 by Daniel. All rights reserved. May be freely copied or excerpted for educational purposes with credit to the author.
+    Created by DQ on September 13, 2022
+    Updated by DQ on September 14, 2022
+    What this file does: this file serves the purpose of styling the webpage. The html is the structure, this is the style.
+*/
+
+/* make the page background light blue and align all text on the page to the center */
+body {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+/* design for when I want certain things to be centered on the page, like tables or images */
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+

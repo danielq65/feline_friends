@@ -1,0 +1,155 @@
+<!--
+    File: page.html
+    GUI Assignment: Create Your First Web Page
+    Daniel Quinonez, UMass Lowell Computer Science, daniel_quinonezrosario@student.uml.edu
+    Copyright (c) 2022 by Daniel. All rights reserved. May be freely copied or excerpted for educational purposes with credit to the author.
+    File created on September 13, 2022
+    Updated by DQ on September 14, 2022
+    What the webpage does: I created this website about my cats because I love them very much and they are a big part of my life. 
+    This page serves as a get to know them kind of thing. Additonally, there's some links at the bottom to sites that provide
+    helpful info on how to take care of cats
+-->
+
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Ferocious Feline Friends</title>
+
+        <!-- This line specifically serves to create a favicon for my website, the image that appears next to the title on the tab -->
+        <link rel="icon" type="image/x-icon" href="images/paw_favicon.png">
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to Ferocious Feline Friends</h1>
+            <p><strong>Great having you here. Please allow me to introduce you to my feline family.</strong></p>
+        </header>
+        
+        <!-- In this section of the page, I use images and info pertaining to each cat to introduce them -->
+        <section>
+            <h2 title="This section introduces my cat family">Meet the family!</h2>
+            
+            <!-- Here I have a table with some basic details of each cat -->
+            <table class="center">
+                <tr>
+                    <td><img src="images/toby_pot2.jpg" alt="Toby in a pot" width="220" height="300"></td>
+                    <td><img src="images/mj_cushion.jpeg" alt="MJ on a couch cushion" width="220" height="300"></td>
+                    <td><img src="images/loki.jpeg" alt="Loki on the couch" width="200" height="300"></td>
+                    <td><img src="images/milo.jpeg" alt="Baby Milo" width="200" height="300"></td>
+                    <td><img src="images/lyla.jpeg" alt="Baby Lyla" width="200" height="300"></td>   
+                </tr>
+                <tr>
+                    <td><strong>Toby</strong></td>
+                    <td><strong>MJ</strong></td>
+                    <td><strong>Loki</strong></td>
+                    <td><strong>Milo</strong></td>
+                    <td><strong>Lyla</strong></td>
+                </tr>
+                <tr>
+                    <td>Grey/White</td>
+                    <td>Black/Grey</td>
+                    <td>Grey/White/Biege</td>
+                    <td>Black/White</td>
+                    <td>Grey/White/Biege</td>
+                </tr>
+                <tr>
+                    <td>Green Eyes</td>
+                    <td>Green Eyes</td>
+                    <td>Orange Eyes</td>
+                    <td>Green Eyes</td>
+                    <td>Grey Eyes</td>
+                </tr>
+                <tr>
+                    <td>2 yrs 2 months</td>
+                    <td>Age Unknown</td>
+                    <td>1 yr 3 months</td>
+                    <td>6 weeks</td>
+                    <td>6 weeks</td>
+                </tr>
+                <tr>
+                    <td><a href="#about_toby">Learn More</a></td>
+                    <td><a href="#about_mj">Learn More</a></td>
+                    <td><a href="#about_loki">Learn More</a></td>
+                    <td><a href="#about_milo_lyla">Learn More</a></td>
+                    <td><a href="#about_milo_lyla">Learn More</a></td>
+                </tr>
+            </table>
+        </section>
+        
+        <!-- This section is where I go into detail about each cat's personality and story -->
+        <section>
+            <h2 id="about_toby">About Toby</h2>
+            <img src="images/toby_pose.jpeg" alt="Toby posing" width="260" height="325" class="center">
+            <img src="images/toby_pot.jpg" alt="Toby sleeping in a pot" width="260" height="325" class="center">
+            <img src="images/toby_bag.jpg" alt="Toby in a bag" width="260" height="325" class="center">
+            <img src="images/toby_sink.jpeg" alt="Toby sleeping with plushie in the sink" width="260" height="325" class="center">
+            <img src="images/contortionist_cat.jpg" alt="Toby sleeping in a weird way" width="260" height="325" class="center">
+            <br>
+            <p>Toby is the first cat I ever owned. I got him from my mother back in September of 2020. He was just a month old when I got him. <br>   
+                Prior to having Toby, I considered myself more of a dog person. But he quickly changed my mind with his quirky personality. He has <br>
+                an unusual personality for an animal. He's very skittish, but also very playful and energetic. He's very sweet, but isn't really <br>
+                one for rubs and petting. He allows you to pet him for a little bit, but then will either gently bite your hand or move away. Toby <br>
+                is a very comical cat because he's such a weirdo, so you'll often find him doing funny things, like sleeping in pots or in weird <br>
+                positions. Toby now lives with my sister, but I still consider him part of my cat family for all the memories we shared together.
+            </p>
+            
+            <h2 id="about_mj">About MJ</h2>
+            <img src="images/mj_box.jpeg" alt="MJ in a box" width="260" height="325" class="center">
+            <img src="images/mj_wbabies.jpeg" alt="MJ with her babies" width="260" height="325" class="center">
+            <img src="images/mj_cushion.jpeg" alt="MJ on the couch" width="260" height="325" class="center">
+            <br>
+            <p>Literally the sweetest cat that I have ever met. I got MJ in October 2021. My boyfriend found her on a post on Facebook. <br>
+                She was in a home where she lived with a male cat that did not like her at all, so he was very aggressive and violent towards <br>
+                her. Her owners were giving her away out of concern for her safety. We got her in a little box, and right from the get go, I saw <br>
+                that she was a very gentle and sweet cat. She's never been aggressive and absolutely loves to be rubbed and petted. She likes <br>
+                following me around my apartment and always greets me when I arrive home with a long string of meows. Probably my favorite cat <br>
+                I've ever owned (don't tell the others). MJ currently lives with me.
+            </p>
+
+            <h2 id="about_loki">About Loki</h2>
+            <img src="images/loki3.jpeg" alt="Loki looking at the camera" width="260" height="325" class="center">
+            <img src="images/loki_floor.jpeg" alt="Loki sleeping on the floor" width="260" height="325" class="center">
+            <br>
+            <p>Loki is the cat I got most recently, back in May of 2022. My boyfriend got him from a friend of his who had a whole litter of <br>
+                cats. He is a very sweet and gentle cat, despite his big and strong physique. Loki loves getting rubbed although he's very <br>
+                shy and skittish sometimes. He's also very playful and energetic, but is never aggressive towards his owners. Loki is the first <br>
+                cat I've ever met that has orange eyes. His eyes were the first thing that caught my eye when I saw him, they're beautiful. Loki <br>
+                currently lives with me.
+            </p>
+
+            <h2 id="about_milo_lyla">About Milo and Lyla</h2>
+            <img src="images/milo.jpeg" alt="Baby Milo" width="230" height="325" class="center">
+            <img src="images/milo_bed.jpeg" alt="Milo sleeping" width="250" height="325" class="center">
+            <img src="images/lyla.jpeg" alt="Baby Lyla" width="230" height="325" class="center">
+            <img src="images/lyla_desk.jpeg" alt="Lyla on the desk" width="250" height="325" class="center">
+            <img src="images/babies_sleeping2.jpeg" alt="Babies on the bed" width="260" height="325" class="center">
+            <br>
+            <p>Milo and Lyla are the babies of MJ and Loki. They were born 6 weeks ago, and they're growing so fast! They're already walking <br>
+                and running by themselves. And they are super playful and energetic. Their latest accomplishment has been learning how to climb <br>
+                the bed and jump off by themselves. Milo is the more playful and curious out of the two. He loves being close to people so you'll <br>
+                often find him following you around trying to grab your foot. Lyla is more on the shy side, so she prefers to keep her distance. <br>
+                They love to play and sleep together. They both currently live with me, and I cannot wait to see them grow together.
+            </p>
+        </section>
+
+        <!-- This footer provides external links for websites providing additional information on cats. 
+            I made it so that they open in a new tab 
+        -->
+        <footer>
+            <h3><strong>Resources for Learning How to Understand and Care for Your Feline</strong></h3>
+            <a href="https://www.tuftandpaw.com/blogs/cat-guides/the-definitive-guide-to-cat-behavior-and-body-language" target="_blank">The 
+                Definitive Guide to Cat Behavior and Body Language
+            </a>
+            <br>
+            <a href="https://www.fourpaws.com/pets-101/cat-corner/cat-care-101" target="_blank">Cat Care 101</a>
+            <br>
+            <a href="https://cvillecatcare.com/veterinary-topics/101-amazing-cat-facts-fun-trivia-about-your-feline-friend/" target="_blank">
+                101 Amazing Cat Facts: Fun Trivia About Your Feline Friend
+            </a>
+        </footer>
+
+        <br>
+        <br>
+    </body>
+</html>
